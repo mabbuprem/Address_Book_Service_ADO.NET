@@ -1,17 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace Address_Book_Service_ADO.NET
+namespace AddressBookSystem_ADO.NET
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Address Book Service ADO.NET Program");
-            
-            }
+            Console.WriteLine("Welcome to AddressBookSystem using Ado.net");
+            AddressBookRepo addressBookRepo = new AddressBookRepo();
+            addressBookRepo.checkConnection();
         }
     }
+}
 
