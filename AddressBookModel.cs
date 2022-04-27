@@ -18,5 +18,6 @@ namespace AddressBookSystem_ADO.NET
         public string Email { get; set; }
         public string AddressBookName { get; set; }
         public string AddressBookType { get; set; }
+        public object PhoneNumber { get; internal set; }
     }
 }
